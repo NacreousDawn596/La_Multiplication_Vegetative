@@ -1,0 +1,46 @@
+html, body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('backgroud.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    /*line-height: 200%;*/
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#text_section{
+    margin: 0%;
+    min-height:95vh;
+    width:100vw;
+    padding-top: 1%;
+}
+
+#first{
+    padding-top: 1%;
+    margin: 0%;
+    height:75vh;
+    width:100vw;
+    font-size: 180%;
+}
+
+.titre{
+    color: snow;
+    font-size: 220%;
+}
+
+.text{
+    color: #009B77;
+    font-size: 120%;
+}
